@@ -1,6 +1,11 @@
 # MusicCloud status page — powered by Upptime, rendered by Velvet.
 # Velvet front-end: https://github.com/phranck/velvet
 # Spec: musiccloud repo → docs/superpowers/specs/2026-06-26-status-page-theme-design.md (MC-062)
+#
+# NOTE: api.musiccloud.io (Backend/Database/Email) is currently IPv6-only on
+# Zerops; GitHub Actions runners are IPv4-only, so Upptime marks them down even
+# though they serve 200. Fix: give the subdomains IPv4 (Cloudflare proxy or a
+# Zerops IPv4 add-on). Frontend (apex) is dual-stack and unaffected.
 
 owner: phranck
 repo: status.musiccloud.io
@@ -8,16 +13,16 @@ repo: status.musiccloud.io
 sites:
   - name: Frontend
     url: https://musiccloud.io
-  - name: API
+  - name: Backend
+    url: https://api.musiccloud.io/health
+  - name: Database
     url: https://api.musiccloud.io/health/ready
+  - name: Email
+    url: https://api.musiccloud.io/health/email
   - name: Dashboard
     url: https://dashboard.musiccloud.io
   - name: Developer Site
     url: https://developer.musiccloud.io
-  # Email (SMTP2GO) — blocked on the email-provider migration (backend still uses
-  # Brevo as of 2026-06-26). Add once GET https://api.musiccloud.io/health/email exists:
-  # - name: Email
-  #   url: https://api.musiccloud.io/health/email
 
 status-website:
   cname: status.musiccloud.io
@@ -38,6 +43,8 @@ status-website:
     accentDown: "#f85149"
     icons:
       frontend: ph-globe
-      api: ph-brackets-curly
+      backend: ph-gear-six
+      database: ph-database
+      email: ph-envelope-simple
       dashboard: ph-gauge
       developer-site: ph-code
