@@ -2,10 +2,11 @@
 # Velvet front-end: https://github.com/phranck/velvet
 # Spec: musiccloud repo → docs/superpowers/specs/2026-06-26-status-page-theme-design.md (MC-062)
 #
-# NOTE: api.musiccloud.io (Backend/Database/Email) is currently IPv6-only on
-# Zerops; GitHub Actions runners are IPv4-only, so Upptime marks them down even
-# though they serve 200. Fix: give the subdomains IPv4 (Cloudflare proxy or a
-# Zerops IPv4 add-on). Frontend (apex) is dual-stack and unaffected.
+# NOTE: Dashboard + Developer Site are monitored THROUGH the backend
+# (api.musiccloud.io/health/dashboard|developer), not their own subdomains:
+# dashboard./developer. are IPv6-only on Zerops and the IPv4-only GitHub Actions
+# runners can't reach them directly. The backend sits in the dual-stack Zerops
+# network and proxies the liveness check. Frontend (apex) is dual-stack.
 
 owner: phranck
 repo: status.musiccloud.io
@@ -20,9 +21,9 @@ sites:
   - name: Email
     url: https://api.musiccloud.io/health/email
   - name: Dashboard
-    url: https://dashboard.musiccloud.io
+    url: https://api.musiccloud.io/health/dashboard
   - name: Developer Site
-    url: https://developer.musiccloud.io
+    url: https://api.musiccloud.io/health/developer
 
 status-website:
   cname: status.musiccloud.io
