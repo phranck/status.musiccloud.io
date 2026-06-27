@@ -3,7 +3,9 @@
 # Actions"). This deliberately bypasses the gh-pages branch, so Upptime's stock
 # site builders (site.yml / setup.yml, which push Sapper to gh-pages) can no
 # longer overwrite Velvet. Velvet fetches monitoring data at runtime, so this
-# only runs on config/branding changes, manual dispatch, or the static_site event.
+# only runs on config/branding changes, incident (issue) changes, manual
+# dispatch, or the static_site event. Incident changes rebuild the static
+# /incidents.atom feed that the Subscribe button points at.
 name: Velvet
 on:
   push:
@@ -11,6 +13,8 @@ on:
       - ".upptimerc.yml"
       - "assets/**"
       - ".github/workflows/velvet.yml"
+  issues:
+    types: [opened, closed, reopened, edited, labeled, unlabeled]
   repository_dispatch:
     types: [static_site]
   workflow_dispatch:
