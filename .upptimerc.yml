@@ -28,15 +28,12 @@ status-website:
   cname: status.musiccloud.io
   name: musiccloud.io
   logoUrl: https://musiccloud.io/img/musiccloud-banner-very-small.svg
-  navbar:
-    - title: Status
-      href: /
-    - title: History
-      href: https://github.com/$OWNER/$REPO/issues
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  # No navbar links: the logo links to "/" (Status); History + GitHub removed.
+  navbar: []
   # Velvet front-end configuration (https://github.com/phranck/velvet).
   velvet:
+    # One card per service (vs. "grouped", all services in a single card).
+    layout: cards
     accent: "#6366f1"
     accentDeg: "#d29922"
     accentDown: "#f85149"
