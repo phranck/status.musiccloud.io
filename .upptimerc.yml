@@ -78,6 +78,10 @@ status-website:
     accent: "#6366f1"
     accentDeg: "#d29922"
     accentDown: "#f85149"
+    # Visitor analytics (self-hosted Umami).
+    umami:
+      websiteId: "79070b89-ea23-4959-a677-ccfe37e2cc46"
+      src: "https://umami.layered.work/script.js"
     icons:
       frontend: ph-globe
       backend: ph-gear-six
