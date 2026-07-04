@@ -7,10 +7,12 @@
 # Safety: client_payload is read at runtime via the github-script `context` object,
 # never interpolated into a shell `run:` step, so there is no workflow-injection vector.
 #
-# Sending side (add to musiccloud/.github/workflows/ci.yml, needs a fine-scoped
-# STATUS_DISPATCH_TOKEN secret with issues:write on this repo):
+# Sending side (wired in musiccloud/.github/workflows/ci.yml; needs a fine-grained
+# STATUS_DISPATCH_TOKEN secret with contents:write on this repo). The `slug` must
+# match a site's Upptime slug (the slugified sites[].name in .upptimerc.yml, e.g.
+# "Developer Site" -> developer-site); `service` is only the banner label:
 #   gh api repos/phranck/status.musiccloud.io/dispatches \
-#     -f event_type=deploy_start -F client_payload[service]=Backend -F client_payload[slug]=api
+#     -f event_type=deploy_start -F client_payload[service]=Backend -F client_payload[slug]=backend
 name: Deploy announce
 on:
   repository_dispatch:
