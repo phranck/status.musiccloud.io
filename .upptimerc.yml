@@ -13,11 +13,28 @@ owner: phranck
 repo: status.musiccloud.io
 
 sites:
-  - name: Frontend
+  - name: Website
+    slug: frontend
     url: https://api.musiccloud.io/health/frontend
-  - name: Frontend IPv6
+  - name: Website IPv6
     slug: frontend-ipv6
     url: https://api.musiccloud.io/health/frontend
+    type: globalping
+    check: http
+    ipv6: true
+  - name: Dashboard
+    url: https://api.musiccloud.io/health/dashboard
+  - name: Dashboard IPv6
+    slug: dashboard-ipv6
+    url: https://api.musiccloud.io/health/dashboard
+    type: globalping
+    check: http
+    ipv6: true
+  - name: Developer Site
+    url: https://api.musiccloud.io/health/developer
+  - name: Developer Site IPv6
+    slug: developer-site-ipv6
+    url: https://api.musiccloud.io/health/developer
     type: globalping
     check: http
     ipv6: true
@@ -42,22 +59,6 @@ sites:
   - name: Email IPv6
     slug: email-ipv6
     url: https://api.musiccloud.io/health/email
-    type: globalping
-    check: http
-    ipv6: true
-  - name: Dashboard
-    url: https://api.musiccloud.io/health/dashboard
-  - name: Dashboard IPv6
-    slug: dashboard-ipv6
-    url: https://api.musiccloud.io/health/dashboard
-    type: globalping
-    check: http
-    ipv6: true
-  - name: Developer Site
-    url: https://api.musiccloud.io/health/developer
-  - name: Developer Site IPv6
-    slug: developer-site-ipv6
-    url: https://api.musiccloud.io/health/developer
     type: globalping
     check: http
     ipv6: true
