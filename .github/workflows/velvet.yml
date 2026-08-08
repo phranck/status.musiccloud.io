@@ -23,7 +23,7 @@ jobs:
       - name: Check out status repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - name: Publish Velvet status
-        uses: phranck/velvet/actions/monitor@v1.3.0
+        uses: phranck/velvet/actions/monitor@v1.4.0
         with:
           mode: status
   build:
@@ -48,7 +48,7 @@ jobs:
           ref: velvet-data
           path: .velvet-data
       - name: Build Velvet site
-        uses: phranck/velvet@v1.3.0
+        uses: phranck/velvet@v1.4.0
         with:
           config: velvet.yml
           data: .velvet-data/velvet-data/v1
