@@ -1,0 +1,162 @@
+schemaVersion: 1
+repository:
+  owner: phranck
+  name: status.musiccloud.io
+statusPage:
+  name: musiccloud status & uptime
+  layout: grouped
+  defaultRange: 30d
+  logoHeight: 72
+  showPoweredBy: true
+  navigation: []
+  icons:
+    website: ph-globe
+    dashboard: ph-gauge
+    developer-site: ph-brackets-curly
+    backend: ph-hard-drives
+    database: ph-database
+    email: ph-envelope-simple
+  customDomain: status.musiccloud.io
+  logoUrl: ./logo.png
+  theme:
+    name: Velvet Default
+    palette:
+      canvas: "#0a0b0f"
+      foreground: "#e8eaed"
+      accent: "#6366f1"
+      alternate: "#38bdf8"
+      warning: "#d29922"
+      danger: "#f85149"
+      textPrimary: "#e8eaed"
+      textSecondary: "#8b8c90"
+      textTertiary: "#515256"
+    grid:
+      operational: auto
+      degraded: auto
+      outage: auto
+      noData: auto
+    chart:
+      line: auto
+      lineStyle: solid
+      fill: false
+      background: auto
+      backgroundOpacity: 0
+    background:
+      start: auto
+      end: auto
+      blobs:
+        enabled: true
+        count: 3
+        colors:
+          - auto
+          - auto
+    card:
+      background: auto
+      border: auto
+      separator: auto
+      borderEnabled: true
+      shadowEnabled: true
+      radius: 14
+      padding: 16
+      maxWidth: 760
+    headline:
+      start: auto
+      end: auto
+    service:
+      icon: auto
+    text:
+      primary: auto
+      secondary: auto
+      tertiary: auto
+  seo:
+    description: All about uptime & health of musiccloud and its services
+services:
+  - id: website
+    name: Website
+    checks:
+      - id: website
+        name: Website
+        url: https://api.musiccloud.io/health/frontend
+        method: GET
+        expectedStatusCodes:
+          - 200
+        maxRedirects: 5
+        timeoutMs: 10000
+        headers: []
+        jsonAssertions: []
+  - id: dashboard
+    name: Dashboard
+    checks:
+      - id: dashboard
+        name: Dashboard
+        url: https://api.musiccloud.io/health/dashboard
+        method: GET
+        expectedStatusCodes:
+          - 200
+        maxRedirects: 5
+        timeoutMs: 10000
+        headers: []
+        jsonAssertions: []
+  - id: developer-site
+    name: Developer Site
+    checks:
+      - id: developer-site
+        name: Developer Site
+        url: https://api.musiccloud.io/health/developer
+        method: GET
+        expectedStatusCodes:
+          - 200
+        maxRedirects: 5
+        timeoutMs: 10000
+        headers: []
+        jsonAssertions: []
+  - id: backend
+    name: Backend
+    checks:
+      - id: backend
+        name: Backend
+        url: https://api.musiccloud.io/health/backend
+        method: GET
+        expectedStatusCodes:
+          - 200
+        maxRedirects: 5
+        timeoutMs: 10000
+        headers: []
+        jsonAssertions: []
+  - id: database
+    name: Database
+    checks:
+      - id: database
+        name: Database
+        url: https://api.musiccloud.io/health/db
+        method: GET
+        expectedStatusCodes:
+          - 200
+        maxRedirects: 5
+        timeoutMs: 10000
+        headers: []
+        jsonAssertions: []
+  - id: email
+    name: Email
+    checks:
+      - id: email
+        name: Email
+        url: https://api.musiccloud.io/health/email
+        method: GET
+        expectedStatusCodes:
+          - 200
+        maxRedirects: 5
+        timeoutMs: 10000
+        headers: []
+        jsonAssertions: []
+incidents:
+  failureThreshold: 2
+  recoveryThreshold: 2
+  incidentLabel: incident
+  maintenanceLabel: maintenance
+history:
+  retentionDays: 365
+gallery:
+  listed: true
+updates:
+  automaticSecurityUpdates: true
