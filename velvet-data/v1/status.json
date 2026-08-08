@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T00:01:29.363Z",
+  "generatedAt": "2026-08-08T00:29:53.326Z",
   "monitoringStartedAt": "2026-08-08T00:01:26.315Z",
   "services": [
     {
@@ -12,11 +12,17 @@
           "id": "website",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-08T00:01:26.892Z",
-          "responseTimeMs": 576.043833
+          "checkedAt": "2026-08-08T00:29:50.567Z",
+          "responseTimeMs": 842.5050519999999
         }
       ],
-      "dailyAvailability": []
+      "dailyAvailability": [
+        {
+          "date": "2026-08-08",
+          "monitoredSeconds": 1703,
+          "unavailableSeconds": 0
+        }
+      ]
     },
     {
       "id": "dashboard",
@@ -27,11 +33,17 @@
           "id": "dashboard",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-08T00:01:27.393Z",
-          "responseTimeMs": 501.144722
+          "checkedAt": "2026-08-08T00:29:51.095Z",
+          "responseTimeMs": 528.0943469999997
         }
       ],
-      "dailyAvailability": []
+      "dailyAvailability": [
+        {
+          "date": "2026-08-08",
+          "monitoredSeconds": 1703,
+          "unavailableSeconds": 0
+        }
+      ]
     },
     {
       "id": "developer-site",
@@ -42,11 +54,17 @@
           "id": "developer-site",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-08T00:01:27.894Z",
-          "responseTimeMs": 500.4677499999998
+          "checkedAt": "2026-08-08T00:29:51.620Z",
+          "responseTimeMs": 524.7682630000004
         }
       ],
-      "dailyAvailability": []
+      "dailyAvailability": [
+        {
+          "date": "2026-08-08",
+          "monitoredSeconds": 1703,
+          "unavailableSeconds": 0
+        }
+      ]
     },
     {
       "id": "backend",
@@ -57,11 +75,17 @@
           "id": "backend",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-08T00:01:28.339Z",
-          "responseTimeMs": 445.6217160000001
+          "checkedAt": "2026-08-08T00:29:52.098Z",
+          "responseTimeMs": 477.64648499999976
         }
       ],
-      "dailyAvailability": []
+      "dailyAvailability": [
+        {
+          "date": "2026-08-08",
+          "monitoredSeconds": 1703,
+          "unavailableSeconds": 0
+        }
+      ]
     },
     {
       "id": "database",
@@ -72,11 +96,17 @@
           "id": "database",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-08T00:01:28.789Z",
-          "responseTimeMs": 449.29668800000036
+          "checkedAt": "2026-08-08T00:29:52.597Z",
+          "responseTimeMs": 498.4679610000003
         }
       ],
-      "dailyAvailability": []
+      "dailyAvailability": [
+        {
+          "date": "2026-08-08",
+          "monitoredSeconds": 1703,
+          "unavailableSeconds": 0
+        }
+      ]
     },
     {
       "id": "email",
@@ -87,11 +117,17 @@
           "id": "email",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-08T00:01:29.362Z",
-          "responseTimeMs": 573.392578
+          "checkedAt": "2026-08-08T00:29:53.325Z",
+          "responseTimeMs": 728.6430300000002
         }
       ],
-      "dailyAvailability": []
+      "dailyAvailability": [
+        {
+          "date": "2026-08-08",
+          "monitoredSeconds": 1703,
+          "unavailableSeconds": 0
+        }
+      ]
     }
   ]
 }
