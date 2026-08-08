@@ -16,6 +16,6 @@ jobs:
       - name: Check out status repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - name: Publish Velvet response times
-        uses: phranck/velvet/actions/monitor@v1.4.0
+        uses: phranck/velvet/actions/monitor@v1.4.1
         with:
           mode: response
