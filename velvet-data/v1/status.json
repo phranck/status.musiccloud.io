@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-20T21:15:08.739Z",
+  "monitoringStartedAt": "2026-08-20T21:15:05.788Z",
+  "services": [
+    {
+      "id": "website",
+      "name": "Website",
+      "status": "operational",
+      "checks": [
+        {
+          "id": "website",
+          "protocol": "ipv4",
+          "status": "operational",
+          "checkedAt": "2026-08-20T21:15:06.383Z",
+          "responseTimeMs": 594.0457570000001
+        }
+      ],
+      "dailyAvailability": []
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "status": "operational",
+      "checks": [
+        {
+          "id": "dashboard",
+          "protocol": "ipv4",
+          "status": "operational",
+          "checkedAt": "2026-08-20T21:15:06.846Z",
+          "responseTimeMs": 462.6141610000002
+        }
+      ],
+      "dailyAvailability": []
+    },
+    {
+      "id": "developer-site",
+      "name": "Developer Site",
+      "status": "operational",
+      "checks": [
+        {
+          "id": "developer-site",
+          "protocol": "ipv4",
+          "status": "operational",
+          "checkedAt": "2026-08-20T21:15:07.323Z",
+          "responseTimeMs": 476.67711099999997
+        }
+      ],
+      "dailyAvailability": []
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "status": "operational",
+      "checks": [
+        {
+          "id": "backend",
+          "protocol": "ipv4",
+          "status": "operational",
+          "checkedAt": "2026-08-20T21:15:07.751Z",
+          "responseTimeMs": 428.07563900000014
+        }
+      ],
+      "dailyAvailability": []
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "status": "operational",
+      "checks": [
+        {
+          "id": "database",
+          "protocol": "ipv4",
+          "status": "operational",
+          "checkedAt": "2026-08-20T21:15:08.181Z",
+          "responseTimeMs": 429.66132500000003
+        }
+      ],
+      "dailyAvailability": []
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "status": "operational",
+      "checks": [
+        {
+          "id": "email",
+          "protocol": "ipv4",
+          "status": "operational",
+          "checkedAt": "2026-08-20T21:15:08.739Z",
+          "responseTimeMs": 557.6511400000004
+        }
+      ],
+      "dailyAvailability": []
+    }
+  ]
+}
