@@ -1,43 +1,73 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T21:15:08.739Z",
+  "generatedAt": "2026-08-21T00:16:55.427Z",
   "monitoringStartedAt": "2026-08-20T21:15:05.788Z",
   "series": [
     {
       "serviceId": "website",
       "checkId": "website",
       "protocol": "ipv4",
-      "samples": []
+      "samples": [
+        {
+          "timestamp": "2026-08-21T00:16:52.564Z",
+          "responseTimeMs": 648.8648739999999
+        }
+      ]
     },
     {
       "serviceId": "dashboard",
       "checkId": "dashboard",
       "protocol": "ipv4",
-      "samples": []
+      "samples": [
+        {
+          "timestamp": "2026-08-21T00:16:53.098Z",
+          "responseTimeMs": 534.309084
+        }
+      ]
     },
     {
       "serviceId": "developer-site",
       "checkId": "developer-site",
       "protocol": "ipv4",
-      "samples": []
+      "samples": [
+        {
+          "timestamp": "2026-08-21T00:16:53.710Z",
+          "responseTimeMs": 611.4695789999996
+        }
+      ]
     },
     {
       "serviceId": "backend",
       "checkId": "backend",
       "protocol": "ipv4",
-      "samples": []
+      "samples": [
+        {
+          "timestamp": "2026-08-21T00:16:54.195Z",
+          "responseTimeMs": 485.19138599999997
+        }
+      ]
     },
     {
       "serviceId": "database",
       "checkId": "database",
       "protocol": "ipv4",
-      "samples": []
+      "samples": [
+        {
+          "timestamp": "2026-08-21T00:16:54.690Z",
+          "responseTimeMs": 494.39169200000015
+        }
+      ]
     },
     {
       "serviceId": "email",
       "checkId": "email",
       "protocol": "ipv4",
-      "samples": []
+      "samples": [
+        {
+          "timestamp": "2026-08-21T00:16:55.427Z",
+          "responseTimeMs": 736.8017330000002
+        }
+      ]
     }
   ]
 }
