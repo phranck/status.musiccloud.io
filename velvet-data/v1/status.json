@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T23:56:59.483Z",
+  "generatedAt": "2026-08-25T00:22:40.053Z",
   "monitoringStartedAt": "2026-08-20T21:15:05.788Z",
   "services": [
     {
@@ -12,8 +12,8 @@
           "id": "website",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-24T23:56:57.239Z",
-          "responseTimeMs": 898.431828
+          "checkedAt": "2026-08-25T00:22:38.204Z",
+          "responseTimeMs": 636.656782
         }
       ],
       "dailyAvailability": [
@@ -39,7 +39,12 @@
         },
         {
           "date": "2026-08-24",
-          "monitoredSeconds": 86219,
+          "monitoredSeconds": 86400,
+          "unavailableSeconds": 0
+        },
+        {
+          "date": "2026-08-25",
+          "monitoredSeconds": 1360,
           "unavailableSeconds": 0
         }
       ]
@@ -53,8 +58,8 @@
           "id": "dashboard",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-24T23:56:57.681Z",
-          "responseTimeMs": 442.22256100000004
+          "checkedAt": "2026-08-25T00:22:38.606Z",
+          "responseTimeMs": 401.94252600000004
         }
       ],
       "dailyAvailability": [
@@ -80,7 +85,12 @@
         },
         {
           "date": "2026-08-24",
-          "monitoredSeconds": 86219,
+          "monitoredSeconds": 86400,
+          "unavailableSeconds": 0
+        },
+        {
+          "date": "2026-08-25",
+          "monitoredSeconds": 1360,
           "unavailableSeconds": 0
         }
       ]
@@ -94,8 +104,8 @@
           "id": "developer-site",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-24T23:56:58.113Z",
-          "responseTimeMs": 431.66342499999973
+          "checkedAt": "2026-08-25T00:22:38.970Z",
+          "responseTimeMs": 363.8973810000002
         }
       ],
       "dailyAvailability": [
@@ -121,7 +131,12 @@
         },
         {
           "date": "2026-08-24",
-          "monitoredSeconds": 86219,
+          "monitoredSeconds": 86400,
+          "unavailableSeconds": 0
+        },
+        {
+          "date": "2026-08-25",
+          "monitoredSeconds": 1360,
           "unavailableSeconds": 0
         }
       ]
@@ -135,8 +150,8 @@
           "id": "backend",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-24T23:56:58.487Z",
-          "responseTimeMs": 373.7053740000001
+          "checkedAt": "2026-08-25T00:22:39.275Z",
+          "responseTimeMs": 305.57681200000025
         }
       ],
       "dailyAvailability": [
@@ -162,7 +177,12 @@
         },
         {
           "date": "2026-08-24",
-          "monitoredSeconds": 86219,
+          "monitoredSeconds": 86400,
+          "unavailableSeconds": 0
+        },
+        {
+          "date": "2026-08-25",
+          "monitoredSeconds": 1360,
           "unavailableSeconds": 0
         }
       ]
@@ -176,8 +196,8 @@
           "id": "database",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-24T23:56:58.869Z",
-          "responseTimeMs": 382.13027599999987
+          "checkedAt": "2026-08-25T00:22:39.600Z",
+          "responseTimeMs": 324.71886300000006
         }
       ],
       "dailyAvailability": [
@@ -203,7 +223,12 @@
         },
         {
           "date": "2026-08-24",
-          "monitoredSeconds": 86219,
+          "monitoredSeconds": 86400,
+          "unavailableSeconds": 0
+        },
+        {
+          "date": "2026-08-25",
+          "monitoredSeconds": 1360,
           "unavailableSeconds": 0
         }
       ]
@@ -217,8 +242,8 @@
           "id": "email",
           "protocol": "ipv4",
           "status": "operational",
-          "checkedAt": "2026-08-24T23:56:59.483Z",
-          "responseTimeMs": 613.3429709999996
+          "checkedAt": "2026-08-25T00:22:40.053Z",
+          "responseTimeMs": 452.3128630000001
         }
       ],
       "dailyAvailability": [
@@ -244,7 +269,12 @@
         },
         {
           "date": "2026-08-24",
-          "monitoredSeconds": 86219,
+          "monitoredSeconds": 86400,
+          "unavailableSeconds": 0
+        },
+        {
+          "date": "2026-08-25",
+          "monitoredSeconds": 1360,
           "unavailableSeconds": 0
         }
       ]
