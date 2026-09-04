@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T14:42:27.139Z",
+  "generatedAt": "2026-09-04T14:51:44.559Z",
   "monitoringStartedAt": "2026-08-20T21:15:05.788Z",
   "services": [
     {
       "id": "website",
       "name": "Website",
-      "status": "degraded",
+      "status": "outage",
       "checks": [
         {
           "id": "website",
           "protocol": "ipv4",
-          "status": "degraded",
-          "checkedAt": "2026-09-04T14:42:23.888Z",
+          "status": "outage",
+          "checkedAt": "2026-09-04T14:51:39.019Z",
           "responseTimeMs": null
         }
       ],
@@ -94,21 +94,21 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 52947,
-          "unavailableSeconds": 0
+          "monitoredSeconds": 53504,
+          "unavailableSeconds": 557
         }
       ]
     },
     {
       "id": "dashboard",
       "name": "Dashboard",
-      "status": "degraded",
+      "status": "outage",
       "checks": [
         {
           "id": "dashboard",
           "protocol": "ipv4",
-          "status": "degraded",
-          "checkedAt": "2026-09-04T14:42:24.650Z",
+          "status": "outage",
+          "checkedAt": "2026-09-04T14:51:40.081Z",
           "responseTimeMs": null
         }
       ],
@@ -190,21 +190,21 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 52947,
-          "unavailableSeconds": 0
+          "monitoredSeconds": 53504,
+          "unavailableSeconds": 557
         }
       ]
     },
     {
       "id": "developer-site",
       "name": "Developer Site",
-      "status": "degraded",
+      "status": "outage",
       "checks": [
         {
           "id": "developer-site",
           "protocol": "ipv4",
-          "status": "degraded",
-          "checkedAt": "2026-09-04T14:42:25.269Z",
+          "status": "outage",
+          "checkedAt": "2026-09-04T14:51:41.696Z",
           "responseTimeMs": null
         }
       ],
@@ -286,21 +286,21 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 52947,
-          "unavailableSeconds": 0
+          "monitoredSeconds": 53504,
+          "unavailableSeconds": 557
         }
       ]
     },
     {
       "id": "backend",
       "name": "Backend",
-      "status": "degraded",
+      "status": "outage",
       "checks": [
         {
           "id": "backend",
           "protocol": "ipv4",
-          "status": "degraded",
-          "checkedAt": "2026-09-04T14:42:25.887Z",
+          "status": "outage",
+          "checkedAt": "2026-09-04T14:51:42.645Z",
           "responseTimeMs": null
         }
       ],
@@ -382,21 +382,21 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 52947,
-          "unavailableSeconds": 0
+          "monitoredSeconds": 53504,
+          "unavailableSeconds": 557
         }
       ]
     },
     {
       "id": "database",
       "name": "Database",
-      "status": "degraded",
+      "status": "outage",
       "checks": [
         {
           "id": "database",
           "protocol": "ipv4",
-          "status": "degraded",
-          "checkedAt": "2026-09-04T14:42:26.501Z",
+          "status": "outage",
+          "checkedAt": "2026-09-04T14:51:43.590Z",
           "responseTimeMs": null
         }
       ],
@@ -478,21 +478,21 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 52947,
-          "unavailableSeconds": 0
+          "monitoredSeconds": 53504,
+          "unavailableSeconds": 557
         }
       ]
     },
     {
       "id": "email",
       "name": "Email",
-      "status": "degraded",
+      "status": "outage",
       "checks": [
         {
           "id": "email",
           "protocol": "ipv4",
-          "status": "degraded",
-          "checkedAt": "2026-09-04T14:42:27.139Z",
+          "status": "outage",
+          "checkedAt": "2026-09-04T14:51:44.558Z",
           "responseTimeMs": null
         }
       ],
@@ -574,8 +574,8 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 52947,
-          "unavailableSeconds": 0
+          "monitoredSeconds": 53504,
+          "unavailableSeconds": 557
         }
       ]
     }

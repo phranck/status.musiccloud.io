@@ -1,5 +1,78 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T14:42:27.139Z",
-  "events": []
+  "generatedAt": "2026-09-04T14:51:44.559Z",
+  "events": [
+    {
+      "id": "incident-6",
+      "kind": "incident",
+      "state": "open",
+      "title": "Email is unavailable",
+      "summary": "Email for Email reported a confirmed outage.",
+      "affectedServiceIds": [
+        "email"
+      ],
+      "startsAt": "2026-09-04T14:51:44.558Z",
+      "endsAt": null
+    },
+    {
+      "id": "incident-5",
+      "kind": "incident",
+      "state": "open",
+      "title": "Database is unavailable",
+      "summary": "Database for Database reported a confirmed outage.",
+      "affectedServiceIds": [
+        "database"
+      ],
+      "startsAt": "2026-09-04T14:51:43.590Z",
+      "endsAt": null
+    },
+    {
+      "id": "incident-4",
+      "kind": "incident",
+      "state": "open",
+      "title": "Backend is unavailable",
+      "summary": "Backend for Backend reported a confirmed outage.",
+      "affectedServiceIds": [
+        "backend"
+      ],
+      "startsAt": "2026-09-04T14:51:42.645Z",
+      "endsAt": null
+    },
+    {
+      "id": "incident-3",
+      "kind": "incident",
+      "state": "open",
+      "title": "Developer Site is unavailable",
+      "summary": "Developer Site for Developer Site reported a confirmed outage.",
+      "affectedServiceIds": [
+        "developer-site"
+      ],
+      "startsAt": "2026-09-04T14:51:41.696Z",
+      "endsAt": null
+    },
+    {
+      "id": "incident-2",
+      "kind": "incident",
+      "state": "open",
+      "title": "Dashboard is unavailable",
+      "summary": "Dashboard for Dashboard reported a confirmed outage.",
+      "affectedServiceIds": [
+        "dashboard"
+      ],
+      "startsAt": "2026-09-04T14:51:40.081Z",
+      "endsAt": null
+    },
+    {
+      "id": "incident-1",
+      "kind": "incident",
+      "state": "open",
+      "title": "Website is unavailable",
+      "summary": "Website for Website reported a confirmed outage.",
+      "affectedServiceIds": [
+        "website"
+      ],
+      "startsAt": "2026-09-04T14:51:39.019Z",
+      "endsAt": null
+    }
+  ]
 }
