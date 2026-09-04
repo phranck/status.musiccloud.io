@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T14:51:44.559Z",
+  "generatedAt": "2026-09-04T15:00:54.579Z",
   "monitoringStartedAt": "2026-08-20T21:15:05.788Z",
   "services": [
     {
       "id": "website",
       "name": "Website",
-      "status": "outage",
+      "status": "degraded",
       "checks": [
         {
           "id": "website",
           "protocol": "ipv4",
-          "status": "outage",
-          "checkedAt": "2026-09-04T14:51:39.019Z",
-          "responseTimeMs": null
+          "status": "degraded",
+          "checkedAt": "2026-09-04T15:00:52.126Z",
+          "responseTimeMs": 1043.3285650000003
         }
       ],
       "dailyAvailability": [
@@ -94,22 +94,22 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 53504,
-          "unavailableSeconds": 557
+          "monitoredSeconds": 54054,
+          "unavailableSeconds": 1107
         }
       ]
     },
     {
       "id": "dashboard",
       "name": "Dashboard",
-      "status": "outage",
+      "status": "degraded",
       "checks": [
         {
           "id": "dashboard",
           "protocol": "ipv4",
-          "status": "outage",
-          "checkedAt": "2026-09-04T14:51:40.081Z",
-          "responseTimeMs": null
+          "status": "degraded",
+          "checkedAt": "2026-09-04T15:00:52.618Z",
+          "responseTimeMs": 492.054795
         }
       ],
       "dailyAvailability": [
@@ -190,22 +190,22 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 53504,
-          "unavailableSeconds": 557
+          "monitoredSeconds": 54054,
+          "unavailableSeconds": 1107
         }
       ]
     },
     {
       "id": "developer-site",
       "name": "Developer Site",
-      "status": "outage",
+      "status": "degraded",
       "checks": [
         {
           "id": "developer-site",
           "protocol": "ipv4",
-          "status": "outage",
-          "checkedAt": "2026-09-04T14:51:41.696Z",
-          "responseTimeMs": null
+          "status": "degraded",
+          "checkedAt": "2026-09-04T15:00:53.091Z",
+          "responseTimeMs": 472.20345
         }
       ],
       "dailyAvailability": [
@@ -286,22 +286,22 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 53504,
-          "unavailableSeconds": 557
+          "monitoredSeconds": 54054,
+          "unavailableSeconds": 1107
         }
       ]
     },
     {
       "id": "backend",
       "name": "Backend",
-      "status": "outage",
+      "status": "degraded",
       "checks": [
         {
           "id": "backend",
           "protocol": "ipv4",
-          "status": "outage",
-          "checkedAt": "2026-09-04T14:51:42.645Z",
-          "responseTimeMs": null
+          "status": "degraded",
+          "checkedAt": "2026-09-04T15:00:53.536Z",
+          "responseTimeMs": 445.1676529999995
         }
       ],
       "dailyAvailability": [
@@ -382,22 +382,22 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 53504,
-          "unavailableSeconds": 557
+          "monitoredSeconds": 54054,
+          "unavailableSeconds": 1107
         }
       ]
     },
     {
       "id": "database",
       "name": "Database",
-      "status": "outage",
+      "status": "degraded",
       "checks": [
         {
           "id": "database",
           "protocol": "ipv4",
-          "status": "outage",
-          "checkedAt": "2026-09-04T14:51:43.590Z",
-          "responseTimeMs": null
+          "status": "degraded",
+          "checkedAt": "2026-09-04T15:00:53.983Z",
+          "responseTimeMs": 446.4949259999994
         }
       ],
       "dailyAvailability": [
@@ -478,22 +478,22 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 53504,
-          "unavailableSeconds": 557
+          "monitoredSeconds": 54054,
+          "unavailableSeconds": 1107
         }
       ]
     },
     {
       "id": "email",
       "name": "Email",
-      "status": "outage",
+      "status": "degraded",
       "checks": [
         {
           "id": "email",
           "protocol": "ipv4",
-          "status": "outage",
-          "checkedAt": "2026-09-04T14:51:44.558Z",
-          "responseTimeMs": null
+          "status": "degraded",
+          "checkedAt": "2026-09-04T15:00:54.579Z",
+          "responseTimeMs": 595.9665029999996
         }
       ],
       "dailyAvailability": [
@@ -574,8 +574,8 @@
         },
         {
           "date": "2026-09-04",
-          "monitoredSeconds": 53504,
-          "unavailableSeconds": 557
+          "monitoredSeconds": 54054,
+          "unavailableSeconds": 1107
         }
       ]
     }
